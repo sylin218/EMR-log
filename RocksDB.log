@@ -1,0 +1,226 @@
+[hadoop@ip-172-30-93-254 ~]$ sudo cat /mnt1/yarn/usercache/hadoop/appcache/application_1644114323708_0004/flink-io-8a3a63e6-7d30-4473-9d3c-736bc010ce12/job_069370b584181fd8e1bfb63c4ada0e69_op_KeyedCoProcessOperator_636ec4cf80d38e358c8ce84d5ae4a39f__217_256__uuid_502ba1c6-a50c-48f0-8112-19ff7d596ca1/db/LOG |  grep 'checkpoint_impl'
+2022/02/23-23:20:36.001670 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_16/281ac1b22c07407496e83be437478ab4
+2022/02/23-23:20:36.002007 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_16/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/23-23:20:39.032894 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000029.sst
+2022/02/23-23:20:39.032929 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000029.sst
+2022/02/23-23:20:39.687913 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000026.sst
+2022/02/23-23:20:44.285057 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000022.sst
+2022/02/23-23:20:48.456707 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000018.sst
+2022/02/23-23:20:52.741387 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/23-23:20:52.773399 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/23-23:20:52.806998 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/23-23:20:52.839546 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/23-23:20:52.871035 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 2
+2022/02/23-23:20:52.965609 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/23-23:20:52.965625 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 944702
+2022/02/23-23:31:35.055772 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt1/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_17/281ac1b22c07407496e83be437478ab4
+2022/02/23-23:31:35.055808 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt1/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_17/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/23-23:31:47.057656 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000036.sst
+2022/02/23-23:31:47.057701 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000030.sst
+2022/02/23-23:31:47.057712 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000032.sst
+2022/02/23-23:31:47.057720 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000034.sst
+2022/02/23-23:31:47.057729 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000035.sst
+2022/02/23-23:31:47.057737 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000033.sst
+2022/02/23-23:31:47.057746 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000031.sst
+2022/02/23-23:31:47.057755 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/23-23:31:47.088809 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/23-23:31:47.120367 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/23-23:31:47.159925 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/23-23:31:47.178233 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/23-23:31:47.178250 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 1203184
+2022/02/23-23:41:40.613208 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt2/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_18/281ac1b22c07407496e83be437478ab4
+2022/02/23-23:41:40.613245 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt2/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_18/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/23-23:41:44.978820 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000037.sst
+2022/02/23-23:41:44.978855 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000037.sst
+2022/02/23-23:41:53.157300 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000036.sst
+2022/02/23-23:42:00.236507 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000030.sst
+2022/02/23-23:42:07.268115 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000032.sst
+2022/02/23-23:42:13.493964 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000034.sst
+2022/02/23-23:42:19.543974 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000035.sst
+2022/02/23-23:42:20.245368 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000033.sst
+2022/02/23-23:42:24.782519 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/23-23:42:24.834789 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/23-23:42:24.877714 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/23-23:42:24.927529 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/23-23:42:24.978513 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/23-23:42:25.011625 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/23-23:42:25.011641 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 1415743
+2022/02/23-23:52:14.159853 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt3/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_19/281ac1b22c07407496e83be437478ab4
+2022/02/23-23:52:14.159863 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt3/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_19/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/23-23:52:14.265488 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000039.sst
+2022/02/23-23:52:14.265511 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000039.sst
+2022/02/23-23:52:14.268918 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000038.sst
+2022/02/23-23:52:18.856945 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000037.sst
+2022/02/23-23:52:25.383640 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000036.sst
+2022/02/23-23:52:34.050489 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000030.sst
+2022/02/23-23:52:41.346995 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000032.sst
+2022/02/23-23:52:49.183447 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000034.sst
+2022/02/23-23:52:57.292192 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000035.sst
+2022/02/23-23:52:58.188363 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000033.sst
+2022/02/23-23:53:05.355207 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/23-23:53:05.388058 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/23-23:53:05.430777 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/23-23:53:05.455418 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/23-23:53:05.507890 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/23-23:53:05.664025 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/23-23:53:05.664038 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 1679962
+2022/02/24-00:00:23.655631 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_20/281ac1b22c07407496e83be437478ab4
+2022/02/24-00:00:23.655658 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_20/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-00:00:26.532348 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000045.sst
+2022/02/24-00:00:26.532382 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000045.sst
+2022/02/24-00:00:30.617360 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000041.sst
+2022/02/24-00:00:36.844005 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000042.sst
+2022/02/24-00:00:42.651425 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000043.sst
+2022/02/24-00:00:49.026993 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000044.sst
+2022/02/24-00:00:54.481427 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000040.sst
+2022/02/24-00:01:00.644254 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000033.sst
+2022/02/24-00:01:04.918544 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/24-00:01:04.958334 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-00:01:04.996970 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-00:01:05.047613 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-00:01:05.096511 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-00:01:05.128125 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-00:01:05.128135 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 1847092
+2022/02/24-00:11:36.794451 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt1/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_21/281ac1b22c07407496e83be437478ab4
+2022/02/24-00:11:36.794481 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt1/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_21/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-00:11:37.406385 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000047.sst
+2022/02/24-00:11:37.406424 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000046.sst
+2022/02/24-00:11:37.406434 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000045.sst
+2022/02/24-00:11:37.406443 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000041.sst
+2022/02/24-00:11:37.406452 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000042.sst
+2022/02/24-00:11:37.406461 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000043.sst
+2022/02/24-00:11:37.406470 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000044.sst
+2022/02/24-00:11:37.406478 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000040.sst
+2022/02/24-00:11:37.406488 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000033.sst
+2022/02/24-00:11:37.406497 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000031.sst
+2022/02/24-00:11:37.406506 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-00:11:37.421847 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-00:11:37.848521 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-00:11:37.879606 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-00:11:37.894859 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-00:11:37.894873 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 2090752
+2022/02/24-00:22:22.483855 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt2/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_22/281ac1b22c07407496e83be437478ab4
+2022/02/24-00:22:22.483874 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt2/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_22/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-00:22:23.184842 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000053.sst
+2022/02/24-00:22:23.184878 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000053.sst
+2022/02/24-00:22:23.577693 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000048.sst
+2022/02/24-00:22:31.935132 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000047.sst
+2022/02/24-00:22:31.975252 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000046.sst
+2022/02/24-00:22:42.424721 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000045.sst
+2022/02/24-00:22:47.133816 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000041.sst
+2022/02/24-00:22:55.086208 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000042.sst
+2022/02/24-00:23:03.343561 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000043.sst
+2022/02/24-00:23:10.418147 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000044.sst
+2022/02/24-00:23:18.201390 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000040.sst
+2022/02/24-00:23:23.282800 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000033.sst
+2022/02/24-00:23:26.740899 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/24-00:23:26.775776 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-00:23:26.806817 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-00:23:26.844192 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-00:23:26.880698 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-00:23:26.927782 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-00:23:26.927794 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 2353629
+2022/02/24-00:33:07.108272 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt3/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_23/281ac1b22c07407496e83be437478ab4
+2022/02/24-00:33:07.108302 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt3/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_23/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-00:33:10.178224 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000058.sst
+2022/02/24-00:33:10.178251 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000058.sst
+2022/02/24-00:33:15.371568 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000053.sst
+2022/02/24-00:33:16.638736 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000050.sst
+2022/02/24-00:33:22.637650 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000051.sst
+2022/02/24-00:33:28.509226 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000052.sst
+2022/02/24-00:33:35.025879 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000055.sst
+2022/02/24-00:33:36.478129 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000056.sst
+2022/02/24-00:33:42.282063 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000057.sst
+2022/02/24-00:33:45.871385 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000033.sst
+2022/02/24-00:33:52.776867 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000054.sst
+2022/02/24-00:33:55.460381 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/24-00:33:55.496102 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-00:33:55.530422 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-00:33:55.572096 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-00:33:55.608767 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-00:33:55.639508 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-00:33:55.639529 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 2595334
+2022/02/24-00:44:01.425184 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_24/281ac1b22c07407496e83be437478ab4
+2022/02/24-00:44:01.425197 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_24/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-00:44:04.009350 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000060.sst
+2022/02/24-00:44:04.009393 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000060.sst
+2022/02/24-00:44:04.603040 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000059.sst
+2022/02/24-00:44:13.384649 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000058.sst
+2022/02/24-00:44:18.536044 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000053.sst
+2022/02/24-00:44:19.315272 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000050.sst
+2022/02/24-00:44:27.921788 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000051.sst
+2022/02/24-00:44:35.659178 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000052.sst
+2022/02/24-00:44:42.328232 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000055.sst
+2022/02/24-00:44:44.040212 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000056.sst
+2022/02/24-00:44:50.218265 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000057.sst
+2022/02/24-00:44:54.035360 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000033.sst
+2022/02/24-00:44:59.366831 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000054.sst
+2022/02/24-00:45:03.033300 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/24-00:45:03.080868 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-00:45:03.115376 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-00:45:03.151023 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-00:45:03.199991 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-00:45:03.789569 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-00:45:03.789609 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 2827383
+2022/02/24-00:51:08.326221 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt1/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_25/281ac1b22c07407496e83be437478ab4
+2022/02/24-00:51:08.326247 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt1/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_25/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-00:51:11.053008 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000069.sst
+2022/02/24-00:51:11.053031 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000061.sst
+2022/02/24-00:51:11.053040 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000064.sst
+2022/02/24-00:51:11.053049 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000065.sst
+2022/02/24-00:51:11.053057 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000056.sst
+2022/02/24-00:51:11.053066 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000057.sst
+2022/02/24-00:51:11.053075 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000066.sst
+2022/02/24-00:51:11.053084 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000067.sst
+2022/02/24-00:51:11.053093 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000068.sst
+2022/02/24-00:51:11.053105 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000054.sst
+2022/02/24-00:51:11.053132 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000031.sst
+2022/02/24-00:51:11.053146 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-00:51:11.062451 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-00:51:11.077539 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-00:51:11.092833 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-00:51:11.099384 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-00:51:11.099401 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 2982962
+2022/02/24-01:01:35.120913 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt2/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_26/281ac1b22c07407496e83be437478ab4
+2022/02/24-01:01:35.120947 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt2/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_26/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-01:01:39.183267 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000070.sst
+2022/02/24-01:01:39.183299 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000070.sst
+2022/02/24-01:01:45.045934 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000069.sst
+2022/02/24-01:01:49.516426 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000061.sst
+2022/02/24-01:01:55.570317 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000064.sst
+2022/02/24-01:02:01.732753 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000065.sst
+2022/02/24-01:02:03.382263 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000056.sst
+2022/02/24-01:02:10.339817 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000057.sst
+2022/02/24-01:02:13.622814 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000066.sst
+2022/02/24-01:02:19.923037 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000067.sst
+2022/02/24-01:02:26.940866 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000068.sst
+2022/02/24-01:02:29.334295 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000054.sst
+2022/02/24-01:02:34.587317 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/24-01:02:34.618875 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-01:02:34.649801 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-01:02:34.681363 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-01:02:34.712491 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-01:02:34.727643 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-01:02:34.727661 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 3250150
+2022/02/24-01:12:29.210729 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:83] Started the snapshot process -- creating snapshot in directory /mnt3/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_27/281ac1b22c07407496e83be437478ab4
+2022/02/24-01:12:29.210762 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:99] Snapshot process -- using temporary directory /mnt3/yarn/usercache/hadoop/appcache/application_1644114323708_0004/localState/aid_e27d8bd19e4556e0e3abddfc37f3cace/jid_069370b584181fd8e1bfb63c4ada0e69/vtx_636ec4cf80d38e358c8ce84d5ae4a39f_sti_216/chk_27/281ac1b22c07407496e83be437478ab4.tmp
+2022/02/24-01:12:33.520991 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:110] Hard Linking /000071.sst
+2022/02/24-01:12:33.521026 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000071.sst
+2022/02/24-01:12:41.103054 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000070.sst
+2022/02/24-01:12:47.534952 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000069.sst
+2022/02/24-01:12:51.724073 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000061.sst
+2022/02/24-01:12:57.692508 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000064.sst
+2022/02/24-01:13:04.284990 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000065.sst
+2022/02/24-01:13:05.084322 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000056.sst
+2022/02/24-01:13:10.873737 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000057.sst
+2022/02/24-01:13:15.222713 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000066.sst
+2022/02/24-01:13:21.047840 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000067.sst
+2022/02/24-01:13:26.911240 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000068.sst
+2022/02/24-01:13:29.735475 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000054.sst
+2022/02/24-01:13:34.092989 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /000031.sst
+2022/02/24-01:13:34.119578 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /MANIFEST-000006
+2022/02/24-01:13:34.148869 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:116] Copying /OPTIONS-000014
+2022/02/24-01:13:34.183572 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:122] Creating /CURRENT
+2022/02/24-01:13:34.231196 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:296] Number of log files 0
+2022/02/24-01:13:34.261984 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:145] Snapshot DONE. All is good
+2022/02/24-01:13:34.261998 7f903605e700 [utilities/checkpoint/checkpoint_impl.cc:147] Snapshot sequence number: 3480884
